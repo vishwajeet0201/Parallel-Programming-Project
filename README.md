@@ -1,3 +1,9 @@
+Vishwajeet Waghmare- 241080076
+Yash Wadhwa- 241080078
+
+
+
+
 # Parallel Edge Detection with OpenMP (V0-V6)
 
 Files
@@ -25,3 +31,10 @@ Notes
   - 1080p/4K/8K inputs are made by enlarging a photo (timing does not depend on image content).
   - Run on mains power with other apps closed. Colab has only about 2 cores.
   - Photos: BSDS500 (Arbelaez et al., 2011).
+
+
+Compile: 
+g++ -O3 -march=native -fno-math-errno -fopenmp edge_full.cpp -o edge_full.exe
+
+Run: 
+./edge_full.exe
